@@ -1,3 +1,7 @@
+body {
+    background-image: url(Assets/images/vintage-concrete.png)
+}
+
 h1{
     color: lightblue
 }
@@ -5,6 +9,12 @@ h1{
     float: auto;
 }
 
+header{
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: white;
+}
 #name {
     padding: 20px;
     margin-top: 20px;

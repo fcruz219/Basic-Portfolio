@@ -172,32 +172,25 @@ footer {
 .img-port {
     background: #4aaaa5;
     width: 120px;
-    height: 90px;
+    height: 1px;
     text-decoration: none;
     color: #efefef;
-    padding: 20px;
-    padding-right: 61px;
+    padding: 13px;
+    padding-right: 0px;
     padding-left: 61px;
     position: fixed;
+    float: left;
+    font-size: 15px
 }
 
-#animal {
-    position
-
-}
-
-#city {
-
-}
-
-#food {
-
-}
-
-#nightlife {
-
-}
-
-#nature {
+.port-img {
+    background: #4aaaa5;
+    width: 180px;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    padding: 10px;
+    overflow: auto;
 
 }

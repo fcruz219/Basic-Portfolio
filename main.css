@@ -1,6 +1,7 @@
 body {
     background-image: url(Assets/images/vintage-concrete.png);
     z-index: 1;
+    height: 100%;
 }
 
 h1 {
@@ -118,9 +119,9 @@ footer {
     border-top: 8px solid #4aaaa5;
     position: relative;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 85px;
     margin-bottom: 0px;
-    bottom: 0px
+    bottom: 0px;
     
   }
 
@@ -139,7 +140,7 @@ footer {
   label {
       width: 100%;
   }
-  input {
+  .name-email {
       width: 628px;
       height: 15px;
       padding: 10px;
@@ -152,5 +153,10 @@ footer {
       border: 1px solid #ccc;
   }
 
-
-  
+#submit {
+    padding: 10px 30px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    
+}

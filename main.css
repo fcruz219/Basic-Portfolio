@@ -54,7 +54,7 @@ p {
     text-decoration: none;
     color: grey;
     margin-top: 36px;
-    margin-right: 150px;
+    margin-right: 155px;
   }
   nav a {
     font-size: 15px;
@@ -99,8 +99,8 @@ header{
 
 #mainbox {
     position: relative;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 335px;
+    margin-left: 335px;
     margin-top: 30px;
     width: 100%;
     max-width: 650px;

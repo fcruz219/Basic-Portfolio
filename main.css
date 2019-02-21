@@ -107,6 +107,7 @@ header{
     padding: 30px;
     background: #fff;
     border: 1px solid #ccc;
+    margin-bottom: 100px;
 }
 
 footer {
@@ -125,7 +126,7 @@ footer {
     
   }
 
-/* HEADER PAGE START */
+/* CONTACT PAGE START */
 
   #contact-form ul {
       margin-bottom: 20px;
@@ -159,4 +160,44 @@ footer {
     cursor: pointer;
     background: #4aaaa5;
     
+}
+
+/* PORTFOLIO PAGE START */
+
+.img {
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.img-port {
+    background: #4aaaa5;
+    width: 120px;
+    height: 90px;
+    text-decoration: none;
+    color: #efefef;
+    padding: 20px;
+    padding-right: 61px;
+    padding-left: 61px;
+    position: fixed;
+}
+
+#animal {
+    position
+
+}
+
+#city {
+
+}
+
+#food {
+
+}
+
+#nightlife {
+
+}
+
+#nature {
+
 }

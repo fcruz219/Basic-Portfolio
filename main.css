@@ -37,10 +37,12 @@ p {
   }
 
 .container {
+    margin-top: 0px;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    
     
   }
 
@@ -98,7 +100,7 @@ header{
 
 
 #mainbox {
-    position: relative;
+    
     margin-right: 335px;
     margin-left: 335px;
     margin-top: 30px;
@@ -108,6 +110,7 @@ header{
     background: #fff;
     border: 1px solid #ccc;
     margin-bottom: 100px;
+    /* clear: both; */
 }
 
 footer {
@@ -167,9 +170,11 @@ footer {
 .img {
     margin-right: 20px;
     margin-bottom: 30px;
+    position: relative;
+
 }
 
-.img-port {
+/* .img-port {
     background: #4aaaa5;
     width: 120px;
     height: 1px;
@@ -179,18 +184,32 @@ footer {
     padding-right: 0px;
     padding-left: 61px;
     position: fixed;
-    float: left;
-    font-size: 15px
-}
+    font-size: 15px;
+    bottom: 40px;
+} */
 
 .port-img {
     background: #4aaaa5;
-    width: 180px;
+    width: 160px;
     height: 20px;
     text-decoration: none;
     color: white;
     position: absolute;
     padding: 10px;
-    overflow: auto;
+    /* overflow: auto; */
+    /* float: left;  */
+    text-align: center;
+    /* margin-left: -204px;
+    margin-bottom: -600px;  */
+    /* clear: both; */
+    bottom: 40px;
+}
 
+.imgcontainer {
+    position: relative;
+    float: left;
+}
+
+.clear {
+    clear: both;
 }

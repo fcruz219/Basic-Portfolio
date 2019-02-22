@@ -168,7 +168,7 @@ footer {
 /* PORTFOLIO PAGE START */
 
 .img {
-    margin-right: 20px;
+    /* margin-right: 20px; */
     margin-bottom: 30px;
     position: relative;
 
@@ -208,6 +208,7 @@ footer {
 .imgcontainer {
     position: relative;
     float: left;
+    margin: 5px 15px 5px 30px;
 }
 
 .clear {
